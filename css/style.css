@@ -1,0 +1,51 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.MainBox{
+    width: 970px;
+    margin: auto;
+}
+
+header{
+    background-color: #48C5CE;
+    color: white;
+    padding: 10px;
+    text-align: center;
+    font-size: 13px;
+}
+
+section{
+    background-image: url(/images/people.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 520px;
+}
+
+.ConteudoSection{
+    background-color: #FFFFFFBB;
+    width: 270px;
+    height: 450px;
+    padding: 15px;
+    float: right;
+    margin-top: 20px;
+    margin-right: 20px;
+}
+
+h2, p{
+    font-size: 19px;
+    margin-bottom: 10px;
+}
+
+input, select{
+    border: none;
+    padding: 10px;
+    margin-bottom: 10px;
+    width: 100%;
+    box-sizing: border-box;
+}
+
+input[type="submit"]{
+    background-color: #48C5CE;
+    color: white;
+}
