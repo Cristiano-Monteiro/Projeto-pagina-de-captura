@@ -109,6 +109,7 @@ img{
         float: left;
         margin-left: 120px;
         margin-right: 120px;
+        text-align: center;
     }
 
     footer{
@@ -134,9 +135,14 @@ img{
         margin-right: 26px;
     }
 
+    header{
+        text-align: center;
+    }
+
     .ContentSection{
         margin-left: 40px;
         margin-right: 40px;
+        text-align: center;
     }
 
     img{
@@ -146,5 +152,40 @@ img{
     .ContentFooter{
         width: 230px;
         margin-left: 20px;
+    }
+}
+
+@media screen and (max-width: 375px) {
+    .ContentSection{
+        margin-left: 17px;
+        margin-right: 17px;
+    }
+
+    img{
+        margin-left: 9.5%;
+    }
+
+    .ContentFooter{
+        margin-left: 0;
+    }
+}
+
+@media screen and (max-width: 320px) {
+    .MainBox{
+        max-width: 90%;
+        margin: 0;
+        margin-left: 15px;
+    }
+
+    .ContentSection{
+        width: 225px;
+    }
+
+    img{
+        margin-left: 1%;
+    }
+
+    .ContentFooter{
+        right: 20px;
     }
 }
