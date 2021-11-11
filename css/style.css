@@ -3,9 +3,15 @@
     padding: 0;
     font-family: Arial, Helvetica, sans-serif;
 }
+
+body{
+    background-color: black;
+}
+
 .MainBox{
-    width: 970px;
+    max-width: 70%;
     margin: auto;
+    margin-bottom: 60px;
 }
 
 header{
@@ -46,9 +52,22 @@ input, select{
     box-sizing: border-box;
 }
 
+select{
+    -moz-appearance: none;
+    -webkit-appearance: none;
+    appearance: none;
+    background-image: url(/images/arrow.jpg);
+    background-repeat: no-repeat;
+    background-position: calc(100% - 10px) center;
+}
+
 input[type="submit"]{
     background-color: #48C5CE;
     color: white;
+}
+
+input[type="submit"]:hover{
+    background-color: rgb(21, 21, 224);
 }
 
 footer{
@@ -59,7 +78,7 @@ footer{
 
 img{
     width: 185px;
-    margin-left: 130px;
+    margin-left: 15%;
 }
 
 .ContentFooter{
@@ -73,4 +92,59 @@ img{
 
 .ContentFooter h2{
     font-size: 30px;
+}
+
+@media screen and (max-width: 1024px) {
+    img{
+        margin-left: 5%;
+    }
+
+    .ContentFooter{
+        top: 12px;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .ContentSection{
+        float: left;
+        margin-left: 120px;
+        margin-right: 120px;
+    }
+
+    footer{
+        display: block;
+    }
+
+    img{
+        width: 185px;
+        margin-left: 30%;
+    }
+
+    .ContentFooter{
+        text-align: center;
+        margin-left: 5px;
+    }
+}
+
+@media screen and (max-width: 425px) {
+    .MainBox{
+        max-width: 100%;
+        margin: auto;
+        margin-left: 26px;
+        margin-right: 26px;
+    }
+
+    .ContentSection{
+        margin-left: 40px;
+        margin-right: 40px;
+    }
+
+    img{
+        margin-left: 16%;
+    }
+
+    .ContentFooter{
+        width: 230px;
+        margin-left: 20px;
+    }
 }
