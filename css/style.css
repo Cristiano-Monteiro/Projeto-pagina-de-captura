@@ -8,7 +8,7 @@ body{
     background-color: black;
 }
 
-.MainBox{
+main{
     max-width: 70%;
     margin: auto;
     margin-bottom: 60px;
@@ -118,17 +118,46 @@ img{
 
     img{
         width: 185px;
-        margin-left: 30%;
+        margin-left: 30%;  
     }
 
     .ContentFooter{
+        max-width: 100%;
         text-align: center;
         margin-left: 5px;
     }
 }
 
+@media screen and (max-width: 613px) {
+    main{
+        max-width: 100%;
+        margin: auto;
+        margin-left: 26px;
+        margin-right: 26px;
+    }
+
+    header{
+        text-align: center;
+    }
+
+    .ContentSection{
+        margin-left: 24%;
+        margin-right: 40px;
+        text-align: center;
+    }
+
+    img{
+        margin-left: 30%;
+    }
+
+    .ContentFooter{
+        width: 230px;
+        margin-left: 25%;
+    }
+}
+
 @media screen and (max-width: 425px) {
-    .MainBox{
+    main{
         max-width: 100%;
         margin: auto;
         margin-left: 26px;
@@ -171,7 +200,7 @@ img{
 }
 
 @media screen and (max-width: 320px) {
-    .MainBox{
+    main{
         max-width: 90%;
         margin: 0;
         margin-left: 15px;
@@ -186,6 +215,6 @@ img{
     }
 
     .ContentFooter{
-        right: 20px;
+        right: 2px;
     }
 }
