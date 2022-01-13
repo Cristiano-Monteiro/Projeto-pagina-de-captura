@@ -1,3 +1,5 @@
+![Screenshot-pagina-de-captura](https://user-images.githubusercontent.com/91402144/149425676-f553007e-a919-45ef-a666-6ab81867896a.jpg)
+
 # Projeto-pagina-de-captura
  (Pt-br) Projeto básico de uma página de captura utilizando apenas HTML e CSS.
 
