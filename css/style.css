@@ -94,6 +94,13 @@ img{
     font-size: 30px;
 }
 
+@media screen and (max-width: 1280px) {
+    .ContentFooter{
+        margin-right: 15%;
+        top: 0px;
+    }
+}
+
 @media screen and (max-width: 1024px) {
     img{
         margin-left: 5%;
@@ -118,7 +125,7 @@ img{
 
     img{
         width: 185px;
-        margin-left: 30%;  
+        margin-left: 29%; 
     }
 
     .ContentFooter{
@@ -156,6 +163,20 @@ img{
     }
 }
 
+@media screen and (max-width: 540px) {
+    .ContentSection{
+        margin-left: 20%;
+    }
+
+    img{
+        margin-left: 25%;
+    }
+
+    .ContentFooter{
+        margin-left: 19%;
+    }
+}
+
 @media screen and (max-width: 425px) {
     main{
         max-width: 100%;
@@ -169,18 +190,18 @@ img{
     }
 
     .ContentSection{
-        margin-left: 40px;
+        margin-left: 10%;
         margin-right: 40px;
         text-align: center;
     }
 
     img{
-        margin-left: 16%;
+        margin-left: 14%;
     }
 
     .ContentFooter{
         width: 230px;
-        margin-left: 20px;
+        margin-left: 4%;
     }
 }
 
@@ -196,6 +217,20 @@ img{
 
     .ContentFooter{
         margin-left: 0;
+    }
+}
+
+@media screen and (max-width: 360px) {
+    section{
+        background-position: calc(100vw - 400px);
+    }
+
+    .ContentSection{
+        margin-left: 3%;
+    }
+
+    img{
+        margin-left: 6%;
     }
 }
 
@@ -216,5 +251,27 @@ img{
 
     .ContentFooter{
         right: 2px;
+    }
+}
+
+@media screen and (max-width: 280px) {
+    section{
+        height: 600px;
+        background-position: calc(100vw - 400px);
+    }
+
+    .ContentSection{
+        width: 70%;
+        height: auto;
+        margin-left: 9%;
+    }
+
+    footer{
+        padding: 35px;
+    }
+
+    img{
+        margin-left: 0%;
+        margin-right: 0%;
     }
 }
